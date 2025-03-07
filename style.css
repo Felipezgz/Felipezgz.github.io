@@ -311,21 +311,21 @@ html{
 }
 
 .category-camisa{
-    background-image: linear-gradient(#00000080, #00000080), url(../PaginaWeb/img/camisa-reciclada.jpg);
+    background-image: linear-gradient(#00000080, #00000080), url('img/camisa-reciclada.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat ;
 }
 
 .category-pantalones{
-    background-image: linear-gradient(#00000080, #00000080), url(../PaginaWeb/img/Pantalon-reciclado.png);
+    background-image: linear-gradient(#00000080, #00000080), url('img/Pantalon-reciclado.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat ;
 }
 
 .category-shorts{
-    background-image: linear-gradient(#00000080, #00000080), url(../PaginaWeb/img/Short-reciclado.png);
+    background-image: linear-gradient(#00000080, #00000080), url('img/Short-reciclado.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat ;
