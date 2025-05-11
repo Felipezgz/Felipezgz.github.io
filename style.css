@@ -311,7 +311,7 @@ html{
 }
 
 .category-camisa{
-    background-image: linear-gradient(#00000080, #00000080), url(img/camisa-reciclada.jpg);
+    background-image: linear-gradient(#00000080, #00000080), url(img/camisa-reciclada.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat ;
