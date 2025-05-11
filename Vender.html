@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-Vender.css">
+    <title>Vender</title>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                    <!--Soporte al cliente-->
+                    <div class="customer-support">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="content-customer-support">
+                            <span class="text">Soporte al cliente</span>
+                            <span class="number">123-456-789</span>
+                        </div>
+                    </div>
+                    <!--Logo de la tienda-->
+                    <div class="container-logo">
+                        <i class="fa-solid fa-seedling"></i>
+                        <h1 class="logo"><a href="/">Revive Moda</a></h1>
+                    </div>
+                    <!--Contenido relacionado al usuario (carrito de compras y sesion)-->
+                    <div class="container-user">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        <div class="content-shopping-cart">
+                            <span class="text">Carrito</span>
+                            <span class="number">(0)</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--Barra de navegacion-->
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Vender.html">Vender</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Donaciones.html">Donaciones</a></li>
+                </ul>
+                <form action="" class="search-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class="containerV">
+        <div class="containerV">
+        <h2>Publicar Nuevo Producto</h2>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="image">Imagen del Producto:</label>
+                <input type="file" id="image" name="image">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nombre del Producto:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price" min="0" step="0.01" required>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Categoría:</label>
+                <select id="category" name="category">
+                    <option value="nuevo">Nuevo</option>
+                    <option value="usado_como_nuevo">Usado como Nuevo</option>
+                    <option value="bueno">Bueno</option>
+                </select>
+            </div>
+
+            <div class="controls">
+                <button type="button" class="publish-button">Publicar Producto</button>
+                <button type="reset" class="reset-button">Reiniciar</button>
+            </div>
+        </form>
+    </div>
+    </main>
+    <main>
+                <!--footer-->
+                <footer class="footer">
+                    <div class="container container-footer">
+                        <div class="menu-footer">
+                            <div class="contact-info">
+                                <p class="title-footer">Información de Contacto</p>
+                                <ul>
+                                    <li>
+                                        Dirección: 71 Pennington Lane Vernon Rockville, CT
+                                        06066
+                                    </li>
+                                    <li>Teléfono: 123-456-7890</li>
+                                    <li>Fax: 55555300</li>
+                                    <li>EmaiL: ReviveModa@support.com</li>
+                                </ul>
+                                <div class="social-icons">
+                                    <span class="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </span>
+                                    <span class="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </span>
+                                    <span class="youtube">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </span>
+                                    <span class="pinterest">
+                                        <i class="fa-brands fa-pinterest-p"></i>
+                                    </span>
+                                    <span class="instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </span>
+                                </div>
+                            </div>
+        
+                            <div class="information">
+                                <p class="title-footer">Información</p>
+                                <ul>
+                                    <li><a href="#">Acerca de Nosotros</a></li>
+                                    <li><a href="#">Información Delivery</a></li>
+                                    <li><a href="#">Politicas de Privacidad</a></li>
+                                    <li><a href="#">Términos y condiciones</a></li>
+                                    <li><a href="#">Contactános</a></li>
+                                </ul>
+                            </div>
+        
+                            <div class="my-account">
+                                <p class="title-footer">Mi cuenta</p>
+        
+                                <ul>
+                                    <li><a href="#">Mi cuenta</a></li>
+                                    <li><a href="#">Historial de ordenes</a></li>
+                                    <li><a href="#">Lista de deseos</a></li>
+                                    <li><a href="#">Boletín</a></li>
+                                    <li><a href="#">Reembolsos</a></li>
+                                </ul>
+                            </div>
+        
+                            <div class="newsletter">
+                                <p class="title-footer">Boletín informativo</p>
+        
+                                <div class="content">
+                                    <p>
+                                        Suscríbete a nuestros boletines ahora y mantente al
+                                        día con nuevas colecciones y ofertas exclusivas.
+                                    </p>
+                                    <input type="email" placeholder="Ingresa el correo aquí...">
+                                    <button>Suscríbete</button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="copyright">
+                            <p>
+                                Desarrollado por Revive Moda &copy; 2025
+                            </p>
+        
+                            <img src="img/payment.png" alt="Pagos">
+                        </div>
+                    </div>
+                </footer>        
+    </main>
+    <script src="https://kit.fontawesome.com/de86f793be.js" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.publish-button').addEventListener('click', function() {
+            // Aquí puedes agregar la lógica para enviar los datos del formulario
+            const productName = document.getElementById('name').value;
+            const productPrice = document.getElementById('price').value;
+            alert(`Producto "${productName}" con precio $${productPrice} publicado (funcionalidad no implementada).`);
+            // En una aplicación real, aquí harías una petición a un servidor.
+        });
+    </script>
+</body>
+</html>
